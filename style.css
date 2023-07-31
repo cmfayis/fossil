@@ -1,0 +1,175 @@
+#navbarTogglerDemo02{
+    padding-left: 22vw;
+}
+#mid{
+    background-color: #f7f3ed;
+}
+ #mid h5{
+    color: orangered;
+}
+h2{
+    text-align: center;
+    padding: 1vw;
+}
+.center{
+    top: 90%;
+    left: 40%;
+}
+.t{
+    top: 30%;
+   left: 5%;
+}
+.side{
+    top: 15%;
+    left: 65%;
+}
+.side2{
+    top: 48%;
+    left: 62%;
+}
+.button { 
+    text-align: center; 
+    top: 65%;  
+    left: 69%;
+} 
+.button button{
+    border-radius: 50px;
+    margin-top: 1vw;
+    padding: 1vw;
+}
+.text{
+    top: 50%;
+    left: 67%;
+    font-size: 1.2vw;
+    color: #fff;
+}
+.g{
+    display: none;
+}
+.text1{
+    text-align: center;
+    top: 55%;
+    left: 5%;
+    font-size: 16px;
+    color: #fff;
+
+}
+.last1{
+    margin-bottom: 4vw;
+}
+.main{
+    display: none;
+}
+.button1{
+    top: 80%;
+    text-align: center;
+    left: 40%;
+}
+.button1 button{
+    border-radius: 50px;
+    border: 2px solid;
+    margin-top: 5px;
+}
+.foot {
+   text-align: center;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(90, 79, 79);
+    margin-top: 4vw;
+
+}
+.big{
+    font-size: 2vw;
+}
+.f ul{
+list-style: none;
+}
+.f li{
+    margin-bottom: 15px;
+}
+.line1{
+    width: 70%;
+    height: 1px;
+    background-color: rgb(90, 79, 79);
+    margin-top: 4vw;
+}
+.line2{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(90, 79, 79);
+    margin-top: 4vw;
+}
+.c{
+    display: none;
+}
+.la{
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .center{
+        display: none;
+    }
+    .g{
+        display: block;
+        text-align: center;
+        font-weight: bold;
+    }
+    .last{
+        display: none;
+    }
+    .main{
+        display: block;
+    }
+   
+}
+@media screen and (max-width:576px) {
+    .t{
+        top: 15%;
+        left: 2%;
+    }
+    .text1{
+        top: 40%;
+        left: 2%;
+    }
+    .button1{
+        top: 65%;
+        left: 30%;
+    }
+    .la{
+        display: block;
+    }
+    .f{
+        display: none;
+    }
+}
+@media screen and (max-width:1024px) 
+{
+    .k{
+        display: none;
+    }
+    .c{
+        display: block;
+    }
+}
+form{
+    margin-top: 60px;
+    margin-left: 50px;
+    
+}
+.formcontainer{
+    padding-top: 10px;
+    padding-bottom: 60px;
+    display: flex;
+}
+.formcontainer label{
+    margin-top: 50px;
+}
+.form{
+    background:  #e6e6e1;;
+}
+.down{
+    padding-top: 50px;
+}

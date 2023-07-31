@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="us.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">FOSSIL</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse text-center " id="navbarTogglerDemo02">
+            <ul class="navbar-nav ">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">HOME</a>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">WOMENS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">MENS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">WATCHES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">BAGES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">JEWELRY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">SALE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">FEATURED</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contact.html">CONTACT US</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+   <section class="form" >
+        <div class="formcontainer">
+           
+
+                <table class="table2">
+                  <script>
+                    function validate(){
+                      var name=document.getElementById("name")
+                      
+                      if(name.value==""){
+                        alert("please enter your valid username")
+                        document.name.focus()
+                        return false
+                      }
+                    }
+                  </script>
+                     <form action="" onsubmit="return validate ()">
+                    <tr>
+                        <td><label for="name">First Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label></td>
+                        <td class="down"><input type="text" name="name" id="name"><br></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lname">Last Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label></td>
+                        <td class="down"><input type="text" id="lname"><br></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">E-mail&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label></td>
+                        <td class="down"><input type="email" id="email"><br></td>
+                    </tr>
+                    <tr>
+                        <td><label for="number">Ph No&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label></td>
+                        <td class="down"><input type="number" id="number"><br></td>
+                    </tr>
+                    <tr>
+                        <td><label for="adress">Address &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label></td>
+                        <td class="down"><input type="text" id="address"><br></td>
+                    </tr>
+                    <tr>
+                        <td><label for="city">City&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label></td>
+                        <td class="down"><select name="city" id="city">
+                                <option value="">Calicut</option>
+                                <option value="">Malppuram</option>
+                                <option value="">Kochi</option>
+                                <option value="">Thiruvanathapuram</option>
+                                <option value="">Kollam</option>
+                            </select></td>
+                    </tr>
+                    
+                </table>
+            </form>
+            <div class="text">
+               
+                    
+                    <textarea name="massage" id="message" cols="90" rows="20" placeholder="message"></textarea>
+                </form>
+            </div>
+        </div>
+    </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+  crossorigin="anonymous"></script>
+
+</body>
+</html>
